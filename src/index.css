@@ -1,0 +1,183 @@
+.links{
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
+
+}
+.buttonslist{
+  display: flex;
+  gap: 25px;
+}
+.buttonslist button{
+  border-radius: 25px;
+  background-color: blue;
+  padding: 10px;
+  width: 150px;
+}
+.navbar{
+  background-color: black;
+
+}
+.navbar a{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 800;
+}
+.navbar a:hover{
+  color: red;
+  text-decoration: underline;
+  transition: 0.5ms;
+
+}
+.logo{
+  height: 50px;
+  width: 100px;
+}
+.background{
+  width: 100vw;
+  height: 99vh;
+}
+body{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/020/205/395/non_2x/abstract-purple-light-neon-grey-metallic-black-shadow-arrow-direction-pattern-design-modern-futuristic-technology-background-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.greetings{
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 0 0 10px rgb(246, 137, 244);
+}
+#greet{
+  font-size: 100px;
+ text-align: start;
+ margin-left: 10px;
+ margin-top: 200px;
+ color: aliceblue;
+}
+.searching{
+  width: 500px;
+  border: 1px solid whitesmoke;
+ 
+  border-radius: 25px;
+  padding: 10px;
+}
+#basic-addon1{
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+  border: none;
+}
+.free{
+  border-radius: 18px;
+  width: 150px;
+  padding: 10px;
+  color: black;
+  font-weight: 600;
+}
+.see{
+  border-radius: 18px;
+  width: 150px;  padding: 10px;
+  color: black;
+  font-weight: 600;
+}
+.inpts{
+  background-color: black;
+  border: none;
+}
+.inpts::placeholder{
+  color: aliceblue;
+ text-align: center;
+ font-weight: 400;
+ font-size: large;
+}
+#gify{
+  border-radius: 18px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-right:300px ;
+  border: 5px solid purple;
+  box-shadow: 0 0 20px  rgb(255, 28, 255);
+}
+.see:hover{
+  background-color: rgb(199, 99, 238);
+  font-weight: 700;
+}
+.free:hover{
+  background-color: rgb(199, 99, 238) ;
+  font-weight: 700;
+}
+.testdrivebtn{
+margin-bottom: 50px;
+}
+.testdrivebtn button{
+  width: 450px;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 0 0 20px purple;
+  background-color: blueviolet;
+  font-weight: 700;
+  border: 2px solid palevioletred;
+}
+.testdrivebtn button:hover{
+  background-color: burlywood;
+  color: black;
+  font-weight: 900;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .buttonslist {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .buttonslist button {
+    width: 100%;
+  }
+
+  .greetings {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #greet {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .searching {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .testdrivebtn button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .see, .free {
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  iframe#gify {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+}
